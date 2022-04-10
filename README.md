@@ -8,7 +8,9 @@
 
 >> Funções e Escopo;
 
-As **Funções** executam uma _sequência_ quando _chamada_ (ação que "liga" a função e bota para rodar) de acordo com os **parâmetros** (informações que servem como variáveis) estabelecidos para **ação** a ser executada e dar, ou não, um _retorno_
+As **Funções** executam uma _sequência_ quando _chamada_ (ação que "liga" a função e bota para rodar) <br>
+de acordo com os **parâmetros** (informações que servem como variáveis) estabelecidos para <br>
+**cadeia de comandos** a ser executada e dar, ou não, um _retorno_
 
 **Escopo** é, em suma, onde se localiza a informação; <br>
 ++ pode ser global <br>
@@ -27,19 +29,11 @@ são as condições que determinam como executar as instruções de acordo com a
 
 **If e Switch**
 
-<<<<<<< HEAD
 _+ If_   
 "se for..."  
 _+ Else_  
 para dar outra opção  
 "caso seja..."  
-=======
-_+ If_ </n>
-"se for..." </n>
-_+ Else_ </n>
-para dar outra opção </n>
-"caso seja..." </n>
->>>>>>> b32672ae4c7b42ed383efbd3c0357bad6c791072
 
 ```
 let dia = 'segunda'
@@ -50,14 +44,14 @@ if (dia === 'segunda') {
 }
 
 ```
-_+ Switch_      
-"troca" a variável seguindo cada   
-_+ case_  
-determinante para decisão  
-_+ break_  
-encerra o caso  
-_+ default_  
-forma padrão e também serve para tudo que esteja fora dos _case_'s  
+_+ Switch_      <br>
+"troca" a variável seguindo cada   <br>
+_+ case_  <br>
+determinante para decisão  <br>
+_+ break_  <br>
+encerra o caso  <br> 
+_+ default_  <br>
+forma padrão e também serve para tudo que esteja fora dos _case_'s  <br>
 
 ```
 let tempo = 1998
@@ -103,26 +97,28 @@ para verificar uso estrutura condicionante
 ##### - Se a media for maior e igual a cinco e menor que 7 - Recuperação
 ##### - Se a media for menor que 5 - Reprovado
 
-Primeiro é preciso criar uma função que receba 3 valores,
-em seguida, uma variável (med) que sejá o cálcula da média das 3 notas [(x + y +z) /3]
-escrever condicional para retorno da situação do aluno.
-- med => 7 (aprovado)
-- 5 <= med > 7 (recuperação)
-- med < 5 (reprovado)
+Primeiro é preciso criar uma função que receba 3 valores, <br>
+em seguida, uma variável (med) que sejá o cálcula da média das 3 notas [(x + y +z) /3] <br>
+escrever condicional para retorno da situação do aluno. <br>
+- med => 7 (aprovado) <br>
+- 5 <= med > 7 (recuperação) <br>
+- med < 5 (reprovado) <br>
 
 #### 4 - Crie uma função que retorna a palavra (impar/par) de acordo com seu parâmetro.
 
-utilizar estrutura condicional em uma função para verificar
-se o valor de entrada é impar devo utilizar "% 2 == 0"
+utilizar estrutura condicional em uma função para verificar <br>
+se o valor de entrada é impar devo utilizar "% 2 == 0" <br>
 
-por exemplo, minha variável é x, então escrevo if (x % 2 == 0) { console.log("par")}
-quer dizer: se o % ("resto da divisão") de xis por dois for zero então é par
-caso não seja igual zero, é impar.
+por exemplo, minha variável é x, então escrevo if (x % 2 == 0) { console.log("par")} <br>
+quer dizer: se o % ("resto da divisão") de xis por dois for zero então é par <br>
+caso não seja igual zero, é impar. <br>
 
 #### 5 - Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
 
-para calcular a idade, recebendo o ano em que a pessoa nasceu, devo subtrair o ano de nascimento de hoje (2022)
-usar estrutura condicional para caso a conta seja maior de 18 dizer que é maior, caso seja menor de 18, é menor de idade.
+para calcular a idade, recebendo o ano em que a pessoa nasceu, <br>
+devo subtrair o ano de nascimento de hoje (2022) <br>
+usar estrutura condicional para caso a conta seja maior de 18 dizer que é maior, <br>
+ caso seja menor de 18, é menor de idade.
 
 #### 6 - crie um algoritmo que converte dias em horas, quando recebe um número de dias.
 
