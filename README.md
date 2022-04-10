@@ -1,7 +1,7 @@
 #### Entrega da Terceira Semana
 ##### _Lógica Aplicada_ **Resolução de Problemas em JavaScript (sintaxe básica)**
 
-<h2 align="center"> ✅ Aprendi Nessa Aula</h2>
+<h2 align="center" font color="green"> ✅ Aprendi Nessa Aula </font></h2>
 <hr/> 
 
 ###### O que eu entendi?
@@ -79,16 +79,16 @@ switch (tempo) {
 #### 1 - Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente.
 
 <p align=center>
-_logica_ variável ou função que recebe um número, 
-________ criar condicionante de 1 a 7, com respectivo dia da semana
+_logica_ variável ou função que recebe um número, <br>
+________ criar condicionante de 1 a 7, com respectivo dia da semana <br>
 ex: if(num = 6) {console.log("sexta")}
 </p>
 
 #### 2 - Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se os números forem iguais, mostre uma mensagem no console "Os números são iguais".
 
 <p align=center>
-uma função que recebe dois valores e verifique qual é maior e apresente-os 
-caso sejam iguais, apresente a mensagem conforme enunciado.
+uma função que recebe dois valores e verifique qual é maior e apresente-os <br>
+caso sejam iguais, apresente a mensagem conforme enunciado.<br>
 para verificar uso estrutura condicionante
 </p>
 
