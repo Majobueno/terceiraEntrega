@@ -10,11 +10,11 @@
 
 As **Funções** executam uma _sequência_ quando _chamada_ (ação que "liga" a função e bota para rodar) de acordo com os **parâmetros** (informações que servem como variáveis) estabelecidos para **ação** a ser executada e dar, ou não, um _retorno_
 
-**Escopo** é, em suma, onde se localiza a informação;
-++ pode ser global
-do documento de javascript
-++ local
-dentro de uma função
+**Escopo** é, em suma, onde se localiza a informação; <br>
+++ pode ser global <br>
+do documento de javascript <br>
+++ local <br>
+dentro de uma função <br>
 
 <img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" width="120" height="120"/>
 
@@ -27,11 +27,11 @@ são as condições que determinam como executar as instruções de acordo com a
 
 **If e Switch**
 
-_+ If_ 
-"se for..."
-_+ Else_
-para dar outra opção
-"caso seja..."
+_+ If_   
+"se for..."  
+_+ Else_  
+para dar outra opção  
+"caso seja..."  
 
 ```
 let dia = 'segunda'
@@ -42,14 +42,14 @@ if (dia === 'segunda') {
 }
 
 ```
-_+ Switch_
-"troca" a variável seguindo cada
-_+ case_
-determinante para decisão
-_+ break_
-encerra o caso
-_+ default_
-forma padrão e também serve para tudo que esteja fora dos _case_'s
+_+ Switch_      
+"troca" a variável seguindo cada   
+_+ case_  
+determinante para decisão  
+_+ break_  
+encerra o caso  
+_+ default_  
+forma padrão e também serve para tudo que esteja fora dos _case_'s  
 
 ```
 let tempo = 1998
@@ -85,7 +85,7 @@ ex: if(num = 6) {console.log("sexta")}
 #### 2 - Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se os números forem iguais, mostre uma mensagem no console "Os números são iguais".
 
 <p align=center>
-uma função que recebe dois valores e verifique qual é maior e apresente-os (/n)
+uma função que recebe dois valores e verifique qual é maior e apresente-os 
 caso sejam iguais, apresente a mensagem conforme enunciado.
 para verificar uso estrutura condicionante
 </p>
@@ -124,7 +124,7 @@ uma função ou variável que multiplica o valor recebido de dias por 24 (horas 
 
 functio(paraM1, paraM2) {
   return ( paraM1 / paraM2)
-  
+
 }
 
 
