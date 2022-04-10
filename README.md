@@ -1,7 +1,7 @@
 #### Entrega da Terceira Semana
 ##### _Lógica Aplicada_ **Resolução de Problemas em JavaScript (sintaxe básica)**
 
-<h2 align="center" font color="green"> ✅ Aprendi Nessa Aula </font></h2>
+<h2 align="center" ><font color="green"> ✅</font> Aprendi Nessa Aula </h2>
 <hr/> 
 
 ###### O que eu entendi?
@@ -18,14 +18,19 @@ do documento de javascript <br>
 ++ local <br>
 dentro de uma função <br>
 
-<img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" width="120" height="120"/>
+<img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" width="240" height="240"/>
 
 escopo léxico - nome p/ operação
 ex: __"(x / y)"__
 
+
+
 >> Estrutura Condicional.
 
+<img align="center" src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/02/ESTRUTURAS-CONDICIONAIS-REPETICAO-JAVASCRIPT.png" alt="condic" width="190" height="180"/>
+
 são as condições que determinam como executar as instruções de acordo com a entrada.
+
 
 **If e Switch**
 
@@ -71,7 +76,7 @@ switch (tempo) {
 
 ```
 
------------------------------------------------------------------------------------- 
+===================================================================================================
 
 
 ## **Exercícios para Entrega**
@@ -79,17 +84,18 @@ switch (tempo) {
 #### 1 - Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente.
 
 <p align=center>
-_logica_ variável ou função que recebe um número, <br>
-________ criar condicionante de 1 a 7, com respectivo dia da semana <br>
+<i>logica</i>variável ou função que recebe um número, <br>
+criar condicionante de 1 a 7, com respectivo dia da semana <br>
 ex: if(num = 6) {console.log("sexta")}
 </p>
+
 
 #### 2 - Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se os números forem iguais, mostre uma mensagem no console "Os números são iguais".
 
 <p align=center>
 uma função que recebe dois valores e verifique qual é maior e apresente-os <br>
-caso sejam iguais, apresente a mensagem conforme enunciado.<br>
-para verificar uso estrutura condicionante
+com estrutura condicionante, <i>if</i> <b>X</b> for maior, ou se <b>Y</b><br>
+caso(if) iguais, apresente a mensagem conforme enunciado.<br>
 </p>
 
 #### 3 - Crie um algoritmo que receba três notas de um aluno, calcule sua média e mostre as seguintes mensagens de acordo com cada situação:
@@ -98,7 +104,7 @@ para verificar uso estrutura condicionante
 ##### - Se a media for menor que 5 - Reprovado
 
 Primeiro é preciso criar uma função que receba 3 valores, <br>
-em seguida, uma variável (med) que sejá o cálcula da média das 3 notas [(x + y +z) /3] <br>
+em seguida, uma variável (med) que sejá o cálcula da média das 3 notas [(x + y + z) /3] <br>
 escrever condicional para retorno da situação do aluno. <br>
 - med => 7 (aprovado) <br>
 - 5 <= med > 7 (recuperação) <br>
@@ -117,20 +123,22 @@ caso não seja igual zero, é impar. <br>
 
 para calcular a idade, recebendo o ano em que a pessoa nasceu, <br>
 devo subtrair o ano de nascimento de hoje (2022) <br>
-usar estrutura condicional para caso a conta seja maior de 18 dizer que é maior, <br>
- caso seja menor de 18, é menor de idade.
+ex: (2022 - 1968); ou (20200 - <i>nasc</i>)
+usar estrutura condicional para caso a conta seja maior de 18, dizer que é maior, <br>
+caso seja menor de 18, é menor de idade.
 
 #### 6 - crie um algoritmo que converte dias em horas, quando recebe um número de dias.
 
-uma função ou variável que multiplica o valor recebido de dias por 24 (horas por dia) 
+uma função ou variável que multiplica o **valor recebido de dias** por 24 (horas por dia) 
 
 #### 7 - Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. Além disso, se o resto dessa divisão for zero deverá imprimir no console o valor e dizer que ele é par.
 
-functio(paraM1, paraM2) {
+function dividDois(paraM1, paraM2) {
   return ( paraM1 / paraM2)
 
 }
 
+se entendi bem ex, if (paraM1 % pamaM2 == 0) {console.log(é par)}
 
 
 
