@@ -18,7 +18,7 @@ do documento de javascript <br>
 ++ local <br>
 dentro de uma função <br>
 
-<img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" width="240" height="240"/>
+<img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" width="240" height="360"/>
 
 escopo léxico - nome p/ operação
 ex: __"(x / y)"__
@@ -27,10 +27,12 @@ ex: __"(x / y)"__
 
 >> Estrutura Condicional.
 
-<img align="center" src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/02/ESTRUTURAS-CONDICIONAIS-REPETICAO-JAVASCRIPT.png" alt="condic" width="190" height="180"/>
+<p align=center>
+<img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/02/ESTRUTURAS-CONDICIONAIS-REPETICAO-JAVASCRIPT.png" align=center alt="condic" height="280"/>
+
 
 são as condições que determinam como executar as instruções de acordo com a entrada.
-
+</p>
 
 **If e Switch**
 
@@ -49,6 +51,7 @@ if (dia === 'segunda') {
 }
 
 ```
+<br>
 _+ Switch_      <br>
 "troca" a variável seguindo cada   <br>
 _+ case_  <br>
@@ -88,7 +91,6 @@ switch (tempo) {
 criar condicionante de 1 a 7, com respectivo dia da semana <br>
 ex: if(num = 6) {console.log("sexta")}
 </p>
-
 
 #### 2 - Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se os números forem iguais, mostre uma mensagem no console "Os números são iguais".
 
