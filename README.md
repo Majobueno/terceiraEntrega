@@ -18,7 +18,7 @@ do documento de javascript <br>
 ++ local <br>
 dentro de uma função <br>
 
-<img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" width="240" height="360"/>
+<img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" height="360"/>
 
 escopo léxico - nome p/ operação
 ex: __"(x / y)"__
