@@ -27,11 +27,11 @@ são as condições que determinam como executar as instruções de acordo com a
 
 **If e Switch**
 
-_+ If_ 
-"se for..."
-_+ Else_
-para dar outra opção
-"caso seja..."
+_+ If_ </n>
+"se for..." </n>
+_+ Else_ </n>
+para dar outra opção </n>
+"caso seja..." </n>
 
 ```
 let dia = 'segunda'
