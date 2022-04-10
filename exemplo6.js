@@ -2,8 +2,14 @@
 
 // * crie um algoritmo que converte dias em horas, quando recebe um número de dias
 
+// como variavel
+const ndias = 8
+let diasEmH = (ndias * 24)
+console.log(diasEmH)
+
+// em função
 function converteEmHora(dias) { 
-    return (dias * 24 * 60)
+    return (dias * 24)
 }
 
 // sete dias

@@ -1,21 +1,27 @@
-##### Entrega da Terceira Semana
-###### _Lógica Aplicada_ **Resolução de Problemas/Lógica aplicada e JavaScript (sintaxe básica)**
+#### Entrega da Terceira Semana
+##### _Lógica Aplicada_ **Resolução de Problemas em JavaScript (sintaxe básica)**
 
 <h2 align="center"> ✅ Aprendi Nessa Aula</h2>
 <hr/> 
 
 ###### O que eu entendi?
 
->> Aprendizado de funções e escopo;
+>> Funções e Escopo;
 
-As funções executam uma _sequência_ quando _chamada_ (ação que "liga" a função e bota para rodar) de acordo com os **parâmetros** (informações que servem como variáveis) estabelecidos para definir a **ação** a ser executada e dar, ou não, um _retorno_ 
+As **Funções** executam uma _sequência_ quando _chamada_ (ação que "liga" a função e bota para rodar) de acordo com os **parâmetros** (informações que servem como variáveis) estabelecidos para **ação** a ser executada e dar, ou não, um _retorno_
 
-O escopo é em suma onde se localiza a informação; pode ser global, do documento de javascript, ou local, de uma função.
+**Escopo** é, em suma, onde se localiza a informação;
+++ pode ser global
+do documento de javascript
+++ local
+dentro de uma função
+
+<img src="https://blog.cod3r.com.br/wp-content/uploads/2022/01/2022-01-04_11-28.png" alt="escopo" width="120" height="120"/>
 
 escopo léxico - nome p/ operação
 ex: __"(x / y)"__
 
->> Aprendizado de estrutura condicional.
+>> Estrutura Condicional.
 
 são as condições que determinam como executar as instruções de acordo com a entrada.
 
@@ -70,23 +76,56 @@ switch (tempo) {
 
 #### 1 - Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente.
 
+<p align=center>
+_logica_ variável ou função que recebe um número, 
+________ criar condicionante de 1 a 7, com respectivo dia da semana
+ex: if(num = 6) {console.log("sexta")}
+</p>
+
 #### 2 - Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se os números forem iguais, mostre uma mensagem no console "Os números são iguais".
 
-#### 3 - Crie um algoritmo que receba três notas de um aluno, calcule sua média e mostre as seguintes mensagens de acordo com cada situação:
+<p align=center>
+uma função que recebe dois valores e verifique qual é maior e apresente-os (/n)
+caso sejam iguais, apresente a mensagem conforme enunciado.
+para verificar uso estrutura condicionante
+</p>
 
-  - Se a media for igual ou maior que 7 - Aprovado
-  - Se a media for maior e igual a cinco e menor que 7 - Recuperação
-  - Se a media for menor que 5 - Reprovado
+#### 3 - Crie um algoritmo que receba três notas de um aluno, calcule sua média e mostre as seguintes mensagens de acordo com cada situação:
+##### - Se a media for igual ou maior que 7 - Aprovado
+##### - Se a media for maior e igual a cinco e menor que 7 - Recuperação
+##### - Se a media for menor que 5 - Reprovado
+
+Primeiro é preciso criar uma função que receba 3 valores,
+em seguida, uma variável (med) que sejá o cálcula da média das 3 notas [(x + y +z) /3]
+escrever condicional para retorno da situação do aluno.
+- med => 7 (aprovado)
+- 5 <= med > 7 (recuperação)
+- med < 5 (reprovado)
 
 #### 4 - Crie uma função que retorna a palavra (impar/par) de acordo com seu parâmetro.
 
+utilizar estrutura condicional em uma função para verificar
+se o valor de entrada é impar devo utilizar "% 2 == 0"
+
+por exemplo, minha variável é x, então escrevo if (x % 2 == 0) { console.log("par")}
+quer dizer: se o % ("resto da divisão") de xis por dois for zero então é par
+caso não seja igual zero, é impar.
+
 #### 5 - Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+
+para calcular a idade, recebendo o ano em que a pessoa nasceu, devo subtrair o ano de nascimento de hoje (2022)
+usar estrutura condicional para caso a conta seja maior de 18 dizer que é maior, caso seja menor de 18, é menor de idade.
 
 #### 6 - crie um algoritmo que converte dias em horas, quando recebe um número de dias.
 
+uma função ou variável que multiplica o valor recebido de dias por 24 (horas por dia) 
+
 #### 7 - Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. Além disso, se o resto dessa divisão for zero deverá imprimir no console o valor e dizer que ele é par.
 
-
+functio(paraM1, paraM2) {
+  return ( paraM1 / paraM2)
+  
+}
 
 
 
@@ -97,3 +136,4 @@ switch (tempo) {
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
 <img src="https://i.ibb.co/qRxV2fK/download.png" alt="vscode" width="40" height="40"/>
 </p>
+
