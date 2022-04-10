@@ -28,7 +28,7 @@ ex: __"(x / y)"__
 >> Estrutura Condicional.
 
 <p align=center>
-<img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/02/ESTRUTURAS-CONDICIONAIS-REPETICAO-JAVASCRIPT.png" align=center alt="condic" height="280"/>
+<img src="https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/02/ESTRUTURAS-CONDICIONAIS-REPETICAO-JAVASCRIPT.png" align=center alt="condic" height="160"/>
 
 
 são as condições que determinam como executar as instruções de acordo com a entrada.
@@ -79,7 +79,7 @@ switch (tempo) {
 
 ```
 
-===================================================================================================
+<p align=center> ======================================================================= </p>
 
 
 ## **Exercícios para Entrega**
@@ -133,14 +133,12 @@ caso seja menor de 18, é menor de idade.
 
 uma função ou variável que multiplica o **valor recebido de dias** por 24 (horas por dia) 
 
-#### 7 - Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles. Além disso, se o resto dessa divisão for zero deverá imprimir no console o valor e dizer que ele é par.
+#### 7 - Crie uma função que recebe 2 parâmetros e retorna o resultado da divisão entre eles.   Além disso, se o resto dessa divisão for zero deverá imprimir no console o valor e dizer que ele é par.
 
 function dividDois(paraM1, paraM2) {
-  return ( paraM1 / paraM2)
-
-}
-
-se entendi bem ex, if (paraM1 % pamaM2 == 0) {console.log(é par)}
+  return ( paraM1 / paraM2) }  
+  
+se entendi bem ex, if (paraM1 % pamaM2 == 0) {console.log(é par)}  
 
 
 
