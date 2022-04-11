@@ -1,7 +1,7 @@
 #### Entrega da Terceira Semana
 ##### _Lógica Aplicada_ **Resolução de Problemas em JavaScript (sintaxe básica)**
 
-<h2 align="center" ><font color="green"> ✅</font> Aprendi Nessa Aula </h2>
+<h2 align="center" ><font color="green"> ✅</font><font color="#4B0082"> Aprendi Nessa Aula</font> </h2>
 <hr/> 
 
 ###### O que eu entendi?
